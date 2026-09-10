@@ -13,7 +13,7 @@
     }
   },
   "files": {
-    ".github/workflows/ci.yml": "bc8198e6953818e3593c73b5505fc40e55e48d9bfd0a841add6cce3a37259cf0",
+    ".github/workflows/ci.yml": "965bf9165421b17daf52de43c6876c8509d6c36cedc406fd38c49ce12fad0d1d",
     ".gitignore": "b3b1d5b9c086af80a0de1708647ff9e0e9fe4ecc80d6cca550fdd7a78ca381e1",
     "CHANGELOG.md": "34a545ba6e965ecaaa5f11e524f187ec1113ec34b3c46a2f9dbd79fdce72066c",
     "CITATION.cff": "e279b7649aab1d38ea0e7b11906997bed5ac1a0ffcffc3b74fbcdc945e0c2b2e",
