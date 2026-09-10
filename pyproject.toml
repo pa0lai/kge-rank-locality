@@ -1,0 +1,50 @@
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kge-rank-locality"
+version = "0.1.0"
+description = "Rank-aware locality frontiers for linear knowledge graph embeddings"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "pa0lai" }]
+keywords = ["knowledge-graph", "knowledge-editing", "link-prediction", "locality"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["numpy>=1.26"]
+
+[project.optional-dependencies]
+dev = [
+  "build>=1.2",
+  "pytest>=8.0",
+  "pytest-cov>=5.0",
+  "ruff>=0.8",
+]
+
+[project.scripts]
+kge-rank-locality = "kge_rank_locality.cli:main"
+
+[project.urls]
+Repository = "https://github.com/pa0lai/kge-rank-locality"
+Issues = "https://github.com/pa0lai/kge-rank-locality/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kge_rank_locality"]
+
+[tool.pytest.ini_options]
+addopts = "--strict-markers --strict-config -ra"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]

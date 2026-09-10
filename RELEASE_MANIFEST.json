@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "release": "0.1.0",
+  "created_at": "2026-09-11",
+  "source": {
+    "repository": "https://github.com/pa0lai/KnowledgeEditonKG",
+    "git_commit": "0fbcb18448cb25fbe4105f12b68ace999b3df652",
+    "working_tree_was_dirty": true,
+    "source_files_sha256": {
+      "scripts/run_rank_truncated_frontier.py": "5f93e24bb56f1a48a9fcbb25fd11e942c0dc0ec47eea7d159d7d1d5fd7444e28",
+      "scripts/run_ridge_preservation_sweep.py": "c5f2a8e1a744b32a5f4d5afb5476ea603625a25f9c6bb72b5dd7ab845d7f5e55",
+      "scripts/ranking_edit_pipeline.py": "72784cf4416d73080c9ed7c90056534113eed0f771fa6cdc25cd0b9aed6cf7d6"
+    }
+  },
+  "files": {
+    ".github/workflows/ci.yml": "bc8198e6953818e3593c73b5505fc40e55e48d9bfd0a841add6cce3a37259cf0",
+    ".gitignore": "b3b1d5b9c086af80a0de1708647ff9e0e9fe4ecc80d6cca550fdd7a78ca381e1",
+    "CHANGELOG.md": "34a545ba6e965ecaaa5f11e524f187ec1113ec34b3c46a2f9dbd79fdce72066c",
+    "CITATION.cff": "e279b7649aab1d38ea0e7b11906997bed5ac1a0ffcffc3b74fbcdc945e0c2b2e",
+    "CONTRIBUTING.md": "3a5f47dcfeb9b075065504d6056efdb2abad8f5c4b3f212d2ded787c570a195a",
+    "LICENSE": "6e908f6b615d60822f99475ca0b6a5cfa74463a53657cdf470547f4e33f181d0",
+    "README.md": "5c2275222a7fba4b1bc1d82fa46b93b0523639001e87ea81aa771526f5a67728",
+    "RELEASE_AUDIT.md": "9201b9c7ecb342ad1629e0efca6aa091b114d37ad20b547f61a43933d99c67bb",
+    "SECURITY.md": "497d4aa4b49fe63886dd89eee39fa43954228446bacff94ac63a6ae443755c5a",
+    "docs/METHOD.md": "6e8aa1b084290b7539c7b95373d9477fe7e44c67f68b2b3094d3f3d86b25df2a",
+    "docs/REPRODUCIBILITY.md": "bd1d29be0d9b4ec01170e5c162752c6d099cd5e70b4ec92e8b6e9ee380d3fc60",
+    "pyproject.toml": "e7a2204890d27da89b105f7dc0fd8625ed0653a881fa070446e0085ff5cc23f1",
+    "scripts/verify_release.py": "902bb2217700fc271932546baa44b2345dc130dfc83369a97e13dc079e93faf9",
+    "src/kge_rank_locality/__init__.py": "81c823f0a059a01941cb7caf06be1f203962c78b04e4d7b3545e27d4363ad9ed",
+    "src/kge_rank_locality/cli.py": "1639e93fae7591ba06e72d00970937618e7c000a1d37fec53f1a41c4a5920dc1",
+    "src/kge_rank_locality/core.py": "381a095cf986564705324f9b9039f26c51e841fd3c2c464acaec1d737f3ebac0",
+    "src/kge_rank_locality/io.py": "865ff69182e7ca470ba9202f833f4855835edd8c538a637161fbfdf8d62da509",
+    "tests/test_cli.py": "1b4c327e8d4d93d48e02e3deb7771c992ddcb825185502d425251520fd86272e",
+    "tests/test_core.py": "0744a4453a43c9685b8bde4ad490bb2cd98f4b1c682782558d9d0615ff3df337",
+    "tests/test_io.py": "2f420e85361ff0fa37770fc15202bb87eee085609fe7044c8c8772f131a18eac"
+  }
+}

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using this metadata."
+title: "kge-rank-locality: Rank-aware locality frontiers for linear KGE editing"
+type: software
+version: 0.1.0
+date-released: 2026-09-11
+authors:
+  - name: pa0lai
+repository-code: "https://github.com/pa0lai/kge-rank-locality"
+license: MIT
